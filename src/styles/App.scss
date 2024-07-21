@@ -1,0 +1,191 @@
+.App{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container-nav{
+  width: 25%;
+  min-height:100vh;
+  height:100%;
+  background-color: #363636;
+  color: white;
+  padding: 45px 40px;
+  .head-nav{
+    text-align: center;
+    .img-laods{
+      width: 152px;
+      height: 152px;
+      border-radius: 50%;
+    }
+    p{
+      color: white;
+    }
+    .title{
+      font-size: 22px;
+      margin-bottom: 0px;
+      font-weight: 600;
+    }
+    .desc{
+      font-size: 18px;
+      margin-top: 8px;
+    }
+    .desc-new{
+      font-size: 16px;
+      text-align: justify;
+    }
+  }
+  .nav-links{
+    a{
+      height: 45px;
+      align-items: center;
+      font-size: 18px;
+      display: flex;
+      color: rgba(255, 255, 255, .6);
+      text-decoration: none;
+      transition: 0.2s;
+      font-weight: 700;
+    }
+    a:hover{
+      color: white;
+    }
+    a.active{
+      color: white;
+    }
+  }
+}
+
+.container-content{
+  padding: 45px 40px;
+  width: 75%;
+  height: 100vh;
+  overflow-y: scroll;
+  p{
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  .head{
+    .title{
+      font-size: 32px;
+      font-weight: 600;
+    }
+  }
+  .projects{
+    padding-bottom: 40px;
+    .subtitle{
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .item{
+      display: flex;
+      margin-bottom: 16px;
+      .info{
+        width: 50%;
+        padding-right: 40px;
+        a{
+          text-decoration: none;
+          color: black;
+          transition: 0.2s;
+          .name{
+            font-weight: 600;
+            font-size: 18px;
+          }
+        }
+        a:hover{
+          color: rgb(99, 99, 99);
+        }
+        .description{
+          // line-height: px;
+        }
+      }
+      .images{
+        width: 50%;
+        img{
+          width: 100%;
+        }
+      }
+      .images-mobile{
+        display: none;
+      }
+      .logo-item{
+        width: 50px;
+      }
+    }
+  }
+  .contacts{
+    width: 500px;
+    .item{
+      display: flex;
+      .title{
+        width: 150px;
+      }
+      .value{
+        text-decoration: none;
+        color: brown;
+        transition: 0.2s;
+      }
+      .value:hover{
+        color: rgb(107, 17, 17);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .App{
+    display: block;
+    height: unset;
+    overflow: unset;
+  }
+  .container-nav{
+    width: unset;
+    min-height: unset;
+    height: unset;
+    .nav-links{
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  .container-content{
+    width: unset;
+    overflow: unset;
+    height: unset;
+    .projects{
+      .item{
+        display: flex;
+        gap: 16px;
+        .info{
+          width: unset;
+          padding: 0;
+          .description{
+            text-align: justify;
+          }
+        }
+        .images{
+          display: none;
+        }
+        .images-mobile{
+          display: block;
+          margin-bottom: 16px;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+    .contacts{
+      width: unset;
+      .item{
+        display: block;
+        .title{
+          width: unset;
+          margin-bottom: 10px;
+        }
+      }
+      .item:last-child{
+        margin-top: 1em;
+      }
+    }
+  }
+}

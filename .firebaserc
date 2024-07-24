@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "fatiamarwa-7bf85"
-  }
+    "default": "fatiamarwa-7bf85",
+    "staging": "fatianas-79b3d"
+  },
+  "targets": {}
 }

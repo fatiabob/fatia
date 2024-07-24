@@ -8,7 +8,7 @@ function Nav() {
       <Link to="/" style={{ textDecoration: 'none' }}>
         <div className="head-nav">
           <img src={imgFatia} alt="fatia" className="img-laods" />
-          <p className="title">Fatia Marwa</p>
+          <p className="title">Fatia Marwa Nastitie</p>
           <p className="desc">Data Analyst</p>
           <p className="desc-new">
             Hi, I'm Fatia. Experienced Data Analyst with a demonstrated history{' '}

@@ -17,7 +17,9 @@ function Porto() {
             </p>
           </div>
           <div>
-            <img className='logo-item' src='https://upload.wikimedia.org/wikipedia/commons/b/bc/Telkomsel_2021_icon.svg' alt='logo'/>
+            <a href="https://www.linkedin.com/company/telkomsel/" target="_blank" rel="noreferrer">
+              <img className='logo-item' src='https://upload.wikimedia.org/wikipedia/commons/b/bc/Telkomsel_2021_icon.svg' alt='logo'/>
+            </a>
           </div>
         </div>
         <div className="item">
@@ -30,7 +32,9 @@ function Porto() {
             </p>
           </div>
           <div>
-            <img className='logo-item' src='https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Kampus_Merdeka_Kemendikbud.png' alt='logo'/>
+            <a href="https://www.linkedin.com/company/msib-kampus-merdeka/" target="_blank" rel="noreferrer">
+              <img className='logo-item' src='https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Kampus_Merdeka_Kemendikbud.png' alt='logo'/>
+            </a>
           </div>
         </div>
         <div className="item">
@@ -43,7 +47,9 @@ function Porto() {
             </p>
           </div>
           <div>
-            <img className='logo-item' src='https://www.freepnglogos.com/uploads/logo-tokopedia-png/berita-tokopedia-info-berita-terbaru-tokopedia-6.png' alt='logo'/>
+            <a href="https://www.linkedin.com/company/pt-tokopedia/" target="_blank" rel="noreferrer">
+              <img className='logo-item' src='https://www.freepnglogos.com/uploads/logo-tokopedia-png/berita-tokopedia-info-berita-terbaru-tokopedia-6.png' alt='logo'/>
+            </a>
           </div>
         </div>
         <div className="item">
@@ -56,7 +62,9 @@ function Porto() {
             </p>
           </div>
           <div>
-            <img className='logo-item' src='https://www.bikincv.com/blog/wp-content/uploads/2020/08/Logo-Akseleran-768x512.jpg' alt='logo'/>
+            <a href="https://www.linkedin.com/company/akseleran/" target="_blank" rel="noreferrer">
+              <img className='logo-item' src='https://www.bikincv.com/blog/wp-content/uploads/2020/08/Logo-Akseleran-768x512.jpg' alt='logo'/>
+            </a>
           </div>
         </div>
         <div className="item">
@@ -69,7 +77,9 @@ function Porto() {
             </p>
           </div>
           <div>
-            <img className='logo-item' src='https://upload.wikimedia.org/wikipedia/commons/c/cb/IDX_Channel.png' alt='logo'/>
+            <a href="https://www.linkedin.com/company/indonesia-stock-exchange/" target="_blank" rel="noreferrer">
+              <img className='logo-item' src='https://upload.wikimedia.org/wikipedia/commons/c/cb/IDX_Channel.png' alt='logo'/>
+            </a>
           </div>
         </div>
         <p className='subtitle'>Educations</p>
@@ -83,7 +93,9 @@ function Porto() {
             </p>
           </div>
           <div>
-            <img className='logo-item' src='https://viterbischool.usc.edu/wp-content/uploads/2017/11/main_university.jpg' alt='logo'/>
+            <a href="https://viterbischool.usc.edu/" target="_blank" rel="noreferrer">
+              <img className='logo-item' src='https://viterbischool.usc.edu/wp-content/uploads/2017/11/main_university.jpg' alt='logo'/>  
+            </a>
           </div>
         </div>
         <div className="item">
@@ -96,7 +108,9 @@ function Porto() {
             </p>
           </div>
           <div>
-            <img className='logo-item' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPjt54Np-03xeUM_fAtKZ-RZ-IYUlXUWs_qQ&s' alt='logo'/>
+            <a href="https://www.ui.ac.id/en/" target="_blank" rel="noreferrer">
+              <img className='logo-item' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPjt54Np-03xeUM_fAtKZ-RZ-IYUlXUWs_qQ&s' alt='logo'/>
+            </a>
           </div>
         </div>
       </div>

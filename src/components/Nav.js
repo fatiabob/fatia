@@ -11,7 +11,7 @@ function Nav() {
           <p className="title">Fatia Marwa Nastitie</p>
           <p className="desc">Data Analyst</p>
           <p className="desc-new">
-            Hi, I’m Fatia. Experienced Data Analyst with 2.5 years of expertise in building ML models and frameworks 
+            Experienced Data Analyst with 2.5 years of expertise in building ML models and frameworks 
             within the Telco industry, and an additional year in the E-Commerce sector. 
             Currently, I am pursuing an MS in Applied Data Science at the University of Southern California, 
             Viterbi School of Engineering. I hold a Bachelor’s Degree in Statistics from the University of Indonesia, 
